@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    float: left;
+    padding-left: 100px;
+    margin-left: 0%;
+    font-size: 1.3em;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("../../Resources/bg1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.div_one{
+    height: 90px;
+}
+.div_two{
+    height: 150px;
+}
+.div_three{
+
+
+}
+
+.pos_h1{
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 210px;
+    font-size: 4.8em;
+    color: #FFFFFF;
+}
+.pos_h3 {
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+h1{
+    font-family: 'Titillium Web';
+
+
+}
+
+h4{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.r2{
+    margin-top: 80px;
+    margin-left: 220px ;
+    height: 100px;
+    width: 100px;
+}
+#N1{
+    color: #000000;
+
+}
+#N2{
+    color: #ffffff;
+
+}
+#N3{
+    color: red;
+
+}
+#N4{
+    color: white;
+}
+#N5{
+    color: green;
+}
+#N6{
+    color: white;
+}
+#N7{
+    color: #101319;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+}
+
+.r2:hover{
+    animation: bounce 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS For Contacts Page*/
+
+
+
+
+.bv{
+    padding-top: 20px;
+}
+h1.bv{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3em;
+}
+p.bv{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+}
+hr{
+    border: none;
+    color: #FFFFFF;
+    height: 20px;
+}
+
+p.contact_par{
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.contact_icon{
+    height: 50px;
+    width: 50px;
+}
+.af{
+    background-color: #343a40;
+}
+
+.aw{
+    height: 500px;
+    margin-top: 0px;
+}
+.qw{
+    text-align: center;
+}
+
+.ww{
+    margin-top: 80px;
+    margin-left: 220px ;
+    height: 100px;
+    width: 100px;
+}
+.ww:hover{
+    animation: bounce 1s;
+}
+
+
+/*About page CSS*/
+
+.div_1{
+    background-color: #FFFFFF;
+    height: 1600px;
+    text-align: center;
+    opacity: 0.8;
+}
+.div_2{
+    background-color: rgba(3, 3, 3, 0.8);
+    height: 1600px;
+    /*opacity: 0.85;*/
+
+}
+h5{
+    font-size: 2em;
+    font-family: 'Titillium Web';
+    padding-top: 50px;
+}
+.re{
+    font-size: 2.4em;
+}
+#r1{
+    margin-top: 40px;
+    height: 390px;
+    width: 790px;
+    margin-left: 335px;
+}
+.tr{
+    font-size: 1.4em;
+    padding-top: 50px;
+}
+p.tr{
+    text-align: left;
+    padding-left: 10px;
+}
+footer{
+    height: 90px;
+    padding-top: 30px;
+    opacity: 0.85;
+}
+.b{
+    height: 220px ;
+    width: 220px;
+    border: 10px solid #ffffff;
+    border-radius: 110px;
+    margin-left: 160px;
+}
+#about_body{
+    background-repeat: repeat;
+}
+
+p.ty{
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 8px;
+}
